@@ -89,7 +89,7 @@ default: &default
   pool: 2
   timeout: 5000
   min_message: warning
-  database: owma_api_<%= Rails.env %>
+  database: app_name_<%= Rails.env %>
   username: <%= ENV['DB_USERNAME'] %>
   password: <%= ENV['DB_PASSWORD'] %>
   host: <%= ENV['DB_HOSTNAME'] %>
