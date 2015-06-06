@@ -119,10 +119,10 @@ defaults: &defaults
 
 development:
   <<: *defaults
-  DB_USERNAME:
-  DB_PASSWORD:
-  DB_HOSTNAME:
-  DB_PORT:
+  DB_HOSTNAME: '192.168.59.103'
+  DB_PORT: '5432'
+  DB_USERNAME: 'docker'
+  DB_PASSWORD: 'docker'
 
   NEW_RELIC_APP_NAME:
   NEW_RELIC_LICENSE_KEY:
